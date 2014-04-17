@@ -62,12 +62,12 @@ final class DateTimeTest extends \PHPUnit_Framework_TestCase
      */
     public function badData()
     {
-        return [
-            '$value is null' => [null],
-            '$value is empty' => [''],
-            '$value is whitespace' => [" \n\t"],
-            '$value is not a string or int' => [3.0],
-            '$value is not a valid date string' => ['not a date string'],
-        ];
+        return array(
+            '$value is null' => array(null),
+            '$value is empty' => array(''),
+            '$value is whitespace' => array(" \n\t"),
+            '$value is not a string or int' => array(3.0),
+            '$value is not a valid date string' => array('not a date string'),
+        );
     }
 }
