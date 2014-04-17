@@ -42,30 +42,30 @@
 <path fill="none" stroke="gray" d="M188,-36C188,-30 194,-24 200,-24"/>
 <text text-anchor="middle" x="231" y="-192.1" font-family="Times Roman,serif" font-size="11.00" fill="gray">Filter</text>
 </g>
+<!-- \\Chadicus\\Filter\\String -->
+<g id="node4" class="node"><title>\\Chadicus\\Filter\\String</title>
+<polygon fill="none" stroke="black" points="258,-176 204,-176 204,-140 258,-140 258,-176"/>
+<text text-anchor="middle" x="231" y="-155.1" font-family="Times Roman,serif" font-size="11.00">String</text>
+</g>
 <!-- \\Chadicus\\Filter\\DateTime -->
-<g id="node4" class="node"><title>\\Chadicus\\Filter\\DateTime</title>
-<polygon fill="none" stroke="black" points="265,-176 197,-176 197,-140 265,-140 265,-176"/>
-<text text-anchor="middle" x="231" y="-155.1" font-family="Times Roman,serif" font-size="11.00">DateTime</text>
+<g id="node5" class="node"><title>\\Chadicus\\Filter\\DateTime</title>
+<polygon fill="none" stroke="black" points="265,-122 197,-122 197,-86 265,-86 265,-122"/>
+<text text-anchor="middle" x="231" y="-101.1" font-family="Times Roman,serif" font-size="11.00">DateTime</text>
 </g>
 <!-- \\Chadicus\\Filter\\Exception -->
-<g id="node5" class="node"><title>\\Chadicus\\Filter\\Exception</title>
-<polygon fill="none" stroke="black" points="266,-122 196,-122 196,-86 266,-86 266,-122"/>
-<text text-anchor="middle" x="231" y="-101.1" font-family="Times Roman,serif" font-size="11.00">Exception</text>
+<g id="node6" class="node"><title>\\Chadicus\\Filter\\Exception</title>
+<polygon fill="none" stroke="black" points="266,-68 196,-68 196,-32 266,-32 266,-68"/>
+<text text-anchor="middle" x="231" y="-47.1" font-family="Times Roman,serif" font-size="11.00">Exception</text>
 </g>
 <!-- \\Exception -->
 <g id="node8" class="node"><title>\\Exception</title>
-<ellipse fill="none" stroke="black" cx="62" cy="-104" rx="62.2254" ry="18.3848"/>
-<text text-anchor="middle" x="62" y="-100.4" font-family="Times Roman,serif" font-size="14.00" fill="gray">\Exception</text>
+<ellipse fill="none" stroke="black" cx="62" cy="-50" rx="62.2254" ry="18.3848"/>
+<text text-anchor="middle" x="62" y="-46.4" font-family="Times Roman,serif" font-size="14.00" fill="gray">\Exception</text>
 </g>
 <!-- \\Chadicus\\Filter\\Exception&#45;&gt;\\Exception -->
 <g id="edge5" class="edge"><title>\\Chadicus\\Filter\\Exception&#45;&gt;\\Exception</title>
-<path fill="none" stroke="black" d="M195.983,-104C178.122,-104 155.706,-104 134.349,-104"/>
-<polygon fill="none" stroke="black" points="134.303,-100.5 124.303,-104 134.303,-107.5 134.303,-100.5"/>
-</g>
-<!-- \\Chadicus\\Filter\\String -->
-<g id="node6" class="node"><title>\\Chadicus\\Filter\\String</title>
-<polygon fill="none" stroke="black" points="258,-68 204,-68 204,-32 258,-32 258,-68"/>
-<text text-anchor="middle" x="231" y="-47.1" font-family="Times Roman,serif" font-size="11.00">String</text>
+<path fill="none" stroke="black" d="M195.983,-50C178.122,-50 155.706,-50 134.349,-50"/>
+<polygon fill="none" stroke="black" points="134.303,-46.5001 124.303,-50 134.303,-53.5001 134.303,-46.5001"/>
 </g>
 </g>
 </svg>
