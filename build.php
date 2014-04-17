@@ -39,7 +39,8 @@ if ($returnStatus !== 0) {
 }
 
 $xml = new SimpleXMLElement(file_get_contents('phploc.xml'));
-$averageClassLength = (int)$xml->xpath('//llocByNoc')[0];
+$llocByNoc = $xml->xpath('//llocByNoc');
+$averageClassLength = (int)$llocByNoc[0];
 if ($averageClassLength > 200) {
     fputs(STDERR, "Average number of lines per class exceeds 200\n");
     exit(1);
@@ -47,9 +48,12 @@ if ($averageClassLength > 200) {
 
 echo "Average lines per class is {$averageClassLength}\n";
 
-$namespaceCount = (int)$xml->xpath('//namespaces')[0];
-$classCount = (int)$xml->xpath('//classes')[0];
-$methodCount = (int)$xml->xpath('//methods')[0];
+$namespaces = $xml->xpath('//namespaces');
+$namespaceCount = (int)$namespaces[0];
+$classes = $xml->xpath('//classes');
+$classCount = (int)$classes[0];
+$methods = $xml->xpath('//methods');
+$methodCount = (int)$methods[0];
 
 $averageMethodCount = $methodCount / $classCount;
 if ($averageMethodCount > 10) {
