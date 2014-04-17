@@ -1,0 +1,26 @@
+{
+    "name": "chadicus/filter",
+    "description": "Additional filters to be used with dominionenterprises/filter",
+    "keywords": ["utility", "validation", "datetime", "filter", "input"],
+    "authors": [
+        {
+            "name": "Chad Gray",
+            "email": "chadwickgray@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.2",
+        "dominionenterprises/filter" : "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "phpdocumentor/phpdocumentor": "~2.0",
+        "phploc/phploc": "~2.0",
+        "squizlabs/php_codesniffer": "~1.0"
+    },
+    "autoload": {
+        "psr-0": { "Chadicus": ["src", "tests"] }
+    }
+}
