@@ -5,7 +5,7 @@ Additional filters to be used with [dominionenterprises/filter-php](https://gith
 
 ## Requirements
 
-Primaids requires PHP 5.3 (or later).
+Chadicus\Filter requires PHP 5.3 (or later).
 
 ##Composer
 To add the library as a local, per-project dependency use [Composer](http://getcomposer.org)! Simply add a dependency on
