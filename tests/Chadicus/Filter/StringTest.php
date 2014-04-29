@@ -3,12 +3,14 @@
 namespace Chadicus\Filter;
 
 /**
+ * Unit tests for the \Chadicus\Filter\String class.
+ *
  * @coversDefaultClass \Chadicus\Filter\String
  */
 final class StringTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * Verify basic behvaior of concat()
+     * Verify basic behvaior of concat().
      *
      * @test
      * @covers ::concat
@@ -21,11 +23,18 @@ final class StringTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Verify argument type checking of concat
+     * Verify argument type checking of concat.
+     *
+     * @param string $value           The starting string value.
+     * @param string $prefix          The value to prepend to $value.
+     * @param string $suffix          The value to append to $value.
+     * @param string $expectedMessage The exception message to expect from calling concat with the given params.
      *
      * @test
      * @covers ::concat
      * @dataProvider badConcatData
+     *
+     * @return void
      */
     public function concatWithInvalidParameters($value, $prefix, $suffix, $expectedMessage)
     {
@@ -38,7 +47,7 @@ final class StringTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Data provider for concatWithInvalidParameters()
+     * Data provider for concatWithInvalidParameters().
      *
      * @return array
      */
@@ -52,7 +61,7 @@ final class StringTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Verify basic behaviour of explode()
+     * Verify basic behaviour of explode().
      *
      * @test
      * @covers ::explode
@@ -65,11 +74,18 @@ final class StringTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Verify argument type checking of explode
+     * Verify argument type checking of explode.
+     *
+     * @param string  $value           The input string.
+     * @param string  $delimiter       The boundary string.
+     * @param integer $limit           The limit.
+     * @param string  $expectedMessage The exception message to expect from calling explode with the given params.
      *
      * @test
      * @covers ::explode
      * @dataProvider badExplodeData
+     *
+     * @return void
      */
     public function explodeWithInvalidParameters($value, $delimiter, $limit, $expectedMessage)
     {
@@ -82,7 +98,7 @@ final class StringTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Data provider for explodeWithInvalidParameters()
+     * Data provider for explodeWithInvalidParameters().
      *
      * @return array
      */

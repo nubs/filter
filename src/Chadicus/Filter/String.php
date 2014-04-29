@@ -1,12 +1,15 @@
 <?php
 namespace Chadicus\Filter;
 
+/**
+ * Filter methods for strings.
+ */
 class String
 {
     /**
-     * Method to concat the give prefix and suffix to the given string value
+     * Method to concat the give prefix and suffix to the given string value.
      *
-     * @param string $value The starting string value.
+     * @param string $value  The starting string value.
      * @param string $prefix The value to prepend to $value.
      * @param string $suffix The value to append to $value.
      *
@@ -34,7 +37,8 @@ class String
     }
 
     /**
-     * Split a string by the specified delimiter. @see \explode()
+     * Split a string by the specified delimiter. @see \explode().
+     *
      * This method exists as a filter because filters require the string to be the first argument in the method call.
      *
      * @param string  $value     The input string.

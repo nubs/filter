@@ -2,6 +2,8 @@
 namespace Chadicus\Filter;
 
 /**
+ * Unit tests for the \Chadicus\Filter\DateTime class.
+ *
  * @coversDefaultClass \Chadicus\Filter\DateTime
  */
 final class DateTimeTest extends \PHPUnit_Framework_TestCase
