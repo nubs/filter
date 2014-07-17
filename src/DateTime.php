@@ -17,7 +17,7 @@ class DateTime
      */
     public static function filter($value)
     {
-        if (is_int($value)) {
+        if (ctype_digit($value)) {
             $value = "@{$value}";
         }
 
