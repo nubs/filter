@@ -1,5 +1,5 @@
 #Chadicus\Filter                                                                                                         
-[![Build Status](https://travis-ci.org/chadicus/filter.png)](https://travis-ci.org/chadicus/filter)                      
+[![Build Status](http://img.shields.io/travis/chadicus/filter.svg?style=flat)](https://travis-ci.org/chadicus/filter)                      
                                                                                                                          
 Additional filters to be used with [dominionenterprises/filter-php](https://github.com/dominionenterprises/filter-php) 
 
